@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VAYRO.pk | Wear Your Identity</title>
+<meta name="description" content="VAYRO.pk is a modern online fashion store in Pakistan. Order on WhatsApp, Cash on Delivery.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="announce">Cash on Delivery across Pakistan. Free delivery on orders over PKR 5,000.</div>
+<header class="site-header">
+  <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">Menu</button>
+  <a href="#home" class="logo" aria-label="VAYRO home">VAYRO</a>
+  <nav class="nav" id="nav" aria-label="Main">
+    <a href="#shop">Shop All</a><a href="#new">New</a><a href="#men">Men</a><a href="#women">Women</a><a href="#best">Best Sellers</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="header-actions">
+    <a href="#wishlist" class="icon-btn" id="wishCount">Wishlist (0)</a>
+    <button class="icon-btn" id="cartBtn">Cart (<span id="cartCount">0</span>)</button>
+  </div>
+</header>
+<main id="view"></main>
+<footer class="footer">
+  <div><strong>VAYRO.pk</strong><p>Wear Your Identity.</p><a href="tel:03280357579">0328 0357579</a><a href="mailto:hmadil10511@gmail.com">hmadil10511@gmail.com</a></div>
+  <div><p>Shop</p><a href="#new">New Arrivals</a><a href="#men">Men</a><a href="#women">Women</a></div>
+  <div><p>Help</p><a href="#about">About</a><a href="#contact">Contact</a><a href="#wishlist">Wishlist</a></div>
+  <p class="copy">© 2026 VAYRO.pk. Sample products and prices for now.</p>
+</footer>
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="drawer" aria-label="Shopping cart" aria-hidden="true">
+  <div class="drawer-head"><h2>Your Cart</h2><button class="icon-btn" id="closeCart">Close</button></div>
+  <div id="cartItems"></div>
+  <div class="drawer-foot">
+    <p class="total">Subtotal <span id="cartTotal">PKR 0</span></p>
+    <a class="btn" id="checkoutBtn" href="#checkout">Go to checkout</a>
+  </div>
+</aside>
+<script src="js/products.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
